@@ -11,7 +11,7 @@ script:
   - perl --version
   - sudo apt install strace -y
   - cpanm --version &
-  - cat .cpanm/build.log
+  - cpanm --help &
   - ls -la
-  - cpanm URI            
+  #- cpanm URI            
   #- cpanm --help
