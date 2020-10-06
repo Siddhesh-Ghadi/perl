@@ -2,7 +2,7 @@ arch:
   - amd64
   - ppc64le
 
-#language: perl
+language: perl
 sudo: required
 script:
   - \curl -L http://install.perlbrew.pl | sudo bash
