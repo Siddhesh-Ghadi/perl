@@ -1,8 +1,6 @@
 arch: ppc64le
 
-dist: 
-  - xenial
-  - bionic
+dist: bionic
 language: perl
 sudo: required
 script:
