@@ -5,12 +5,4 @@ arch:
 language: perl
 sudo: required
 script:
-  - \curl -L http://install.perlbrew.pl | sudo bash
-  - source ~/perl5/perlbrew/etc/bashrc
-  - curl -L http://cpanmin.us | perl - --sudo App::cpanminus
-  - perl --version
-  - #sudo apt install strace -y
-  - cpanm --version &
-  - cpanm --help &
-  #- cpanm URI            
-  #- cpanm --help
+  - arch
